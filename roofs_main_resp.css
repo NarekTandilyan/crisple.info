@@ -1,0 +1,164 @@
+@media screen and (max-width: 2040px) {
+
+}
+@media screen and (max-width: 1940px) {
+    
+}
+@media screen and (max-width: 1840px) {
+
+}
+@media screen and (max-width: 1740px) {
+
+}
+@media screen and (max-width: 1640px) {
+    h1{
+        font-size: 2.3vw;
+    }
+    .inf_h1_1{
+        font-size: 2.7vw;
+    }
+    .inf{
+        font-size: 1.8vw;
+    }
+}
+@media screen and (max-width: 1340px) {
+
+}
+@media screen and (max-width: 1140px) {
+    .header_img{
+        width: 70%;
+        height: 90%;
+    }
+    .inf_block1{
+        padding: 20px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 1115px) {
+    .inf{
+        font-size: 1.9vw;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 788px) {
+    h1{
+        font-size: 3vw;
+    }
+    .inf_h1_1{
+        font-size: 3vw;
+    }
+    .inf{
+        font-size: 1.9vw;
+    }
+}
+@media screen and (max-width: 720px) {
+    .header_img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .inf{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 645px) {
+    .inf_sub_section{
+        margin-bottom: 30px;
+    }
+    .inf_block{
+        min-width: 400px;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    .inf_h1_1{
+        font-size: 3.3vw;
+    }
+    .inf{
+        font-size: 2.2vw;
+        margin-bottom: 30px;
+    }
+    .header_img{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 639px) {
+    
+}
+@media screen and (max-width: 609px) {
+
+}
+
+@media screen and (max-width: 572px) {
+    .inf{
+        font-size: 2.4vw;
+    }
+}
+@media screen and (max-width: 493px) {
+    .header_img{
+        width: 95%;
+        height: 80%;
+    }
+    .inf_h1_1{
+        font-size: 3.5vw;
+    }
+    .inf{
+        font-size: 2.5vw;
+    }
+}
+@media screen and (max-width: 455px) {
+    .inf_block{
+        min-width: 350px;
+    }
+    .inf{
+        font-size: 2.6vw;
+    }
+}
+@media screen and (max-width: 399px){
+    .inf_h1_1{
+        font-size: 4vw;
+    }
+    h1{
+        font-size: 4.7vw;
+    }
+    .header_img{
+        width: 100%;
+        height: 75%;
+    }
+    .inf_block{
+        min-width: 300px;
+    }
+    .inf{
+        font-size: 2.8vw;
+    }
+    .inf_block1{
+        padding: 10px 0px 0px 0px;
+        height: 65%;
+    }
+}
+@media screen and (max-width: 360px){
+    .header_img{
+        height: 80%;
+    }
+    .inf{
+        font-size: 3.2vw;
+    }
+    h1{
+        font-size: 5.2vw;
+    }
+}
+@media screen and (max-width: 340px){
+    .inf_block{
+        min-width: 250px;
+    }
+}
+@media screen and (max-width: 309px){
+    .inf{
+        font-size: 3.4vw;
+    }
+}
+

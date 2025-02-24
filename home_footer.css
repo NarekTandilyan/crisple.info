@@ -1,0 +1,42 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: .8%;
+    padding-bottom: 1%;
+}
+
+
+/* лого компании */
+.logo1{
+    width: 11%;
+    height: 99%;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    margin-left: 2%;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+}
+.footer_ul2{
+    position: relative;
+    left: -7px;
+}
+
+/* контакты */
+#nav_footer{
+    margin-top: 2.3%;
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cons{
+    color: #113085;
+    font-size: 1.5vw;
+}

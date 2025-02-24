@@ -1,0 +1,172 @@
+main{
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(bg.png);
+}
+.record_wrap {
+    width:90%;
+    height: 45%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .record_wrap2 {
+    justify-content: space-evenly;
+  }
+  
+  .record {
+    position:relative;
+    width:31.5%;
+    height:90%;
+    overflow:hidden;
+    border:2px solid #1642B6;
+    background-color: white;
+    cursor:pointer;
+    transition: 300ms;
+  }
+
+  
+  .record-arrow {
+    position:absolute;
+    padding:3%;
+    transform:translateX(75%);
+    opacity:0;
+    transition:all 300ms ease-in-out;
+  }
+
+  img {
+    width:8%;
+    height:8%;
+  }
+  
+  .record:hover .record-arrow {
+    transform:translateX(85%);
+    opacity:1;
+  }
+  .record-display{
+    opacity: .8;
+  }
+  .opt{
+    width: 100%;
+    left: 1%;
+    bottom: 0;
+    position: absolute;
+    font-size: 3.3vw;
+    color: #1641b6d1;
+    transition: .3s;
+  }
+  .record:hover .opt {
+    transform:translateY(-85%);
+    opacity:0;
+  }
+  .record-display1 {
+    position: relative;
+    width:100%;
+    height:100%;
+    top:0;
+    background-image:url("roofs7.jpg");
+    background-size:cover;
+    background-position:center center;
+  }
+  .record-display2 {
+    width:100%;
+    height:100%;
+    top:0;
+    background-image:url("awnings3.jpg");
+    background-size:cover;
+    background-position:center center;
+  }
+  .record-display3 {
+    width:100%;
+    height:100%;
+    top:0;
+    background-image:url("blinds.png");
+    background-size:cover;
+    background-position:center center;
+  }
+  .record-display4 {
+    width:100%;
+    height:100%;
+    top:0;
+    background-image:url("folding\ crystals.jpg");
+    background-size:cover;
+    background-position:center center;
+  }
+  .record-display5 {
+    width:100%;
+    height:100%;
+    top:0;
+    background-image:url("mosquito_nets.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+  }
+
+
+  .record:hover .record-display {
+    height:10%;
+  }
+  
+  .record-desc {
+    margin:15px 0 0 10px;
+    opacity:0;
+    transition: 400ms ease-in-out 190ms ;
+    color:#1642B6;
+  }
+  p{
+    font-size:1.5vw;;
+    line-height:1.35em;
+  }
+  .p2{
+    font-size:1.35vw;
+  }
+  h1{
+    margin:5px 0;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+  .more2_opt{
+    position: absolute;
+    z-index: 11;
+    border-radius: 50px;
+    background-color: white;
+    color:#1642B6;
+    border: none;
+    bottom: 3%;
+    right: 3%;
+    width: 25%;
+    height: 12%;
+    opacity: 0;
+  }
+  .link2_more{
+    width: 100%;
+    font-size: 1.15vw;
+    height: 100%;
+  }
+  .link2_more::before{
+    height: 100%;
+  }
+  .record:hover .more2_opt {
+    opacity:1;
+  }
+  
+  #record1 {
+    transition:500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  }
+  #record2 {
+    transition:500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  }
+  #record3 {
+    transition:500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  }
+  
+  .record:hover .record-desc {
+    opacity:1;
+  }
+
+  

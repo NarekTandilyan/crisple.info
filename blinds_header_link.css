@@ -1,0 +1,53 @@
+.h_h{
+    margin-top: 30px;
+}
+@media screen and (max-width: 493px) {
+    main{
+        margin-top: -90px;
+    }
+}
+@media screen and (max-width: 399px) {
+    main{
+        margin-top: -110px;
+    }
+}
+@media screen and (max-width: 369px) {
+    main{
+        margin-top: -10px;
+    }
+}
+.a7{
+    background-color: #1642B6;
+    color: white;
+}
+.a7::before{
+    display: none;
+}
+.a77{
+    background-color: #1642B6;
+    color: white;
+}
+.a77::before{
+    display: none;
+}
+.a777{
+    background-color: #1642B6;
+    color: white;
+}
+.a777::before{
+    display: none;
+}
+.a7777{
+    background-color: #1642B6;
+    color: white;
+}
+.a7777::before{
+    display: none;
+}
+.a77777{
+    background-color: #1642B6;
+    color: white;
+}
+.a77777::before{
+    display: none;
+}

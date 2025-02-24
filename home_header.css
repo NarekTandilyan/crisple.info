@@ -1,0 +1,568 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 1450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* слайдер */
+.slide_cont{
+    margin-top: 1.2%;
+    width: 100%;
+    height: 70%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.png);
+}
+.link_more{
+    font-size:25px;
+    height: 6%;
+    width: 5.5%;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 50px;
+    color:#1642B6;
+    border: none;
+    cursor: pointer;
+}
+.link_more1::before{
+    content: " Más ";
+}
+.link_more2::before{
+    content: " More ";
+}
+.link_more3::before{
+    content: " Plus ";
+}
+.link_more4::before{
+    content: " Mehr ";
+}
+.link_more5::before{
+    content: " Больше ";
+}
+
+.parent{
+    display: flex;
+    margin-top: 2%;
+    width: 60%;
+    height: 95%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+.slider{
+    width: 1000%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: .5s;
+    opacity: .9;
+}
+.slider:hover{
+    opacity: 1;
+}
+.img_{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.img_:nth-child(2){
+    object-fit: cover;
+    object-position: 50% 65%;
+}
+.img_:nth-child(3){
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+.img_:nth-child(4){
+    object-fit: cover;
+    object-position: center;
+}
+#slide{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    bottom: 1%;
+    position: absolute;
+    background-color: transparent;
+}
+.radio{
+    width: 4%;
+    height: 90%;
+    opacity: .5;
+}
+
+/* надпись на слайде */
+.inscr1{
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 11111;
+    position: absolute;
+    font-size: 3.3vw;
+    color: #1641b6d1;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 5px;
+    top: 25%;
+}
+.inscr2{
+    top: 75.5%;
+    font-size: 2.7vw;
+}
+.inscr3{
+    top: 83%;
+    font-size: 2.7vw;
+}
+
+.cont{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+}
+#bottom_hr{
+    position: absolute;
+    bottom: 5%;
+    width: 95%;
+    left: 2.5%;
+    height: 2.5px;
+    background-color: #1642B6;
+}
+#top_hr{
+    position: absolute;
+    top: 5%;
+    width: 95%;
+    left: 2.5%;
+    height: 2.5px;
+    background-color: #1642B6;
+}
+
+#nav1{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.ul1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5em;
+    margin-bottom: 2%;
+}
+.ul2{
+    width: 100%;
+    height: 100%;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+}
+.li2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+a{
+    height: 3.5vw;
+    color: #1642B6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border: .1px solid #1642B6;
+    display: flex;
+    align-items: center;
+    font-size:1.4vw;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    justify-content: space-evenly;
+}
+.a1{
+    width: 80%;
+}
+.a1:hover{
+    background-color: #1642B6;
+    color: white
+}
+.a2{
+    width: 80%;
+}
+.a2:hover{
+    background-color: #1642B6;
+    color: white
+}
+.a3{
+    width: 100%;
+}
+.a3:hover{
+    background-color: #1642B6;
+    color: white
+}
+.a4{
+    width: 35%;
+}
+.a5{
+    width: 35%;
+}
+.a6{
+    width: 80%;
+}
+.a7{
+    width: 50%;
+}
+.a8{
+    width: 55%;
+}
+
+a::before{
+    content: "dasd";
+    position: absolute;
+    left: -.6px;
+    height: 100%;
+    clip-path: circle(0.4% at 0 100%);
+    transition: .4s;
+    border-radius: 50px;
+    border: 1px solid #F3EFE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+a:hover::before{
+    clip-path: circle(141.2% at 0 100%);
+    background-color: #1642B6;
+    color: white;
+}
+.a1::before{
+    display: none;
+}
+.a2::before{
+    display: none;
+}
+.a3::before{
+    display: none;
+}
+.a4::before{
+    content: " Toldos ";
+}
+.a5::before{
+    content: " Techos ";
+    left: -1%;
+}
+.a6::before{
+    content: " Cristales Plegables ";
+    left: -.6%;
+}
+.a7::before{
+    content: " Persianas ";
+}
+.a8::before{
+    content: " Mosquiteras ";
+    left: -.6%;
+}
+
+/* для английского */
+.a44{
+    width: 45%;
+}
+.a44::before{
+    content: " Awnings ";
+}
+.a55{
+    width: 35%;
+}
+.a55::before{
+    content: " Roofs ";
+    left: -1%;
+}
+.a66{
+    width: 75%;
+}
+.a66::before{
+    content: " Folding crystals ";
+    left: -.6%;
+}
+.a77{
+    width: 35%;
+}
+.a77::before{
+    content: " Blinds ";
+}
+.a88{
+    width: 65%;
+}
+.a88::before{
+    content: " Mosquito nets ";
+    left: -.6%;
+}
+
+/* для французского */
+.a444{
+    width: 45%;
+}
+.a444::before{
+    content: " Auvents ";
+}
+.a555{
+    width: 33%;
+}
+.a555::before{
+    content: " Toits ";
+}
+.a666{
+    width: 80%;
+}
+.a666::before{
+    content: " Fenêtres pliantes ";
+    left: -.6%;
+}
+.a777{
+    width: 35%;
+}
+.a777::before{
+    content: " Stores ";
+}
+.a888{
+    width: 70%;
+}
+.a888::before{
+    content: " Moustiquaires ";
+}
+
+/* для немецкого */
+.a4444{
+    width: 45%;
+}
+.a4444::before{
+    content: " Markisen ";
+}
+.a5555{
+    width: 40%;
+}
+.a5555::before{
+    content: " Dächer ";
+    left: -.7%;
+}
+.a6666{
+    width: 60%;
+}
+.a6666::before{
+    content: " Faltfenster ";
+    left: -.5%;
+}
+.a7777{
+    width: 45%;
+}
+.a7777::before{
+    content: " Jalousie ";
+    left: -.9%;
+}
+.a8888{
+    width: 65%;
+}
+.a8888::before{
+    content: " Moskitonetze ";
+    left: -.9%;
+}
+
+/* Для русского */
+
+.a44444{
+    width: 35%;
+}
+.a44444::before{
+    content: " Тенты ";
+}
+.a55555{
+    width: 40%;
+}
+.a55555::before{
+    content: " Крыши ";
+    left: -.7%;
+}
+.a66666{
+    width: 75%;
+}
+.a66666::before{
+    content: " Складные окна ";
+    left: -.7%;
+}
+.a77777{
+    width: 45%;
+}
+.a77777::before{
+    content: " Жалюзи ";
+    left: -.8%;
+}
+.a88888{
+    width: 80%;
+}
+.a88888::before{
+    content: " Маскитные сетки ";
+}
+/* выбор языка сайта */
+#lenguages{
+    width: 22%;
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.label1{
+    background: url(esp.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 14.7%;
+    height: 100%;
+    opacity: .7;
+    cursor: pointer;
+}
+.label2{
+    background: url(eng.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 14.7%;
+    height: 100%;
+    opacity: .7;
+    cursor: pointer;
+}
+.label3{
+    background: url(france.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 14.7%;
+    height: 100%;
+    opacity: .7;
+    cursor: pointer;
+}
+.label4{
+    background: url(germany.svg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 14.7%;
+    height: 100%;
+    opacity: .7;
+    cursor: pointer;
+}
+.label5{
+    background: linear-gradient(to bottom, white 33.3%, blue 33.3% 66.6%, red 66.6%);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 14.7%;
+    height: 100%;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.label11{
+    opacity: 1;
+    cursor: default;
+}
+.label22{
+    opacity: 1;
+    cursor: default;
+}
+.label33{
+    opacity: 1;
+    cursor: default;
+}
+.label44{
+    opacity: 1;
+    cursor: default;
+}
+.label55{
+    opacity: 1;
+    cursor: default;
+}
+
+.label1:hover{
+    opacity: 1;
+}
+.label2:hover{
+    opacity: 1;
+}
+.label3:hover{
+    opacity: 1;
+}
+.label4:hover{
+    opacity: 1;
+}
+.label5:hover{
+    opacity: 1;
+}
+
+/* лого компании */
+.logo{
+    width: 9%;
+    height: 85%;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    margin-right: 4%;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    bottom: 6.5%;
+}
+
+/* Бежащяя строка */
+marquee{
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    top: 91%;
+    color:#113085;
+    font-size: 1.6vw;
+    background-color:white;
+    word-spacing: 5px;
+    z-index: 1111;
+    border: 1px solid #1d4ac3;
+    display: flex;
+    align-items: center;
+}
+
